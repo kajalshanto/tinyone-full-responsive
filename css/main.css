@@ -1,0 +1,102 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #010101;
+}
+
+/*Header section Start*/
+header {
+    background-color: #fcdb00;
+    padding: 15px 0;
+}
+
+
+.menu ul li a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important;
+    text-transform: capitalize;
+    padding: 0 35px !important;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+
+}
+
+.menu ul li a:hover {
+    color: #fff !important;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0 !important;
+}
+
+/*Header section End*/
+
+/*slider section Start*/
+.slider {
+    background-color: #fcdb00;
+    height: 100vh;
+    padding-bottom: 100px;
+}
+
+.slider-text {
+    margin-top: 75px;
+}
+
+.slider-text h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+    margin: 0;
+}
+
+.slider-text h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #313841;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.slider-text p {
+    font-weight: 400;
+    color: #555555;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.slider-icon li i {
+    font-size: 42px;
+    margin-right: 20px;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+
+}
+
+.slider-icon li i:hover {
+    color: #fff;
+}
+
+.slider-image {
+    margin-left: 85px;
+}
+
+
+.slider-indicator {
+    bottom: -75px;
+}
+
+.slider-indicator .active {
+    opacity: 1;
+}
+
+.slider-indicator li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+/*slider section css end*/
