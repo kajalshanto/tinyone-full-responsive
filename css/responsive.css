@@ -52,7 +52,65 @@
         display: none;
     }
 
+    .slider-text {
+        margin-top: 10%;
+    }
+
+    .slider-indicator {
+        bottom: -45%;
+    }
+
     /*Slider section End*/
+
+    /* Features Section Start */
+    #features {
+        margin-bottom: 70px;
+    }
+
+    .features_title {
+        text-align: center;
+    }
+
+    .features_para {
+        text-align: center;
+    }
+
+    .features_icon {
+        font-size: 40px;
+        margin-bottom: 12px;
+    }
+
+    .section_title {
+        font-size: 24px;
+    }
+
+    .section_para {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .mt_60 {
+        margin-top: 40px;
+    }
+
+
+    /*Features Section End*/
+
+    /* Contact Start */
+    .s_btn {
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .address-area,
+    .foot-1 {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    /* Contact End */
+
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
@@ -105,7 +163,64 @@
         display: none;
     }
 
+    .slider-text {
+        margin-top: 10%;
+    }
+
+    .slider-indicator {
+        bottom: -50%;
+    }
+
     /*Slider section End*/
+
+    /*Features Section*/
+
+    .section_title {
+        font-size: 24px;
+    }
+
+    .features_title {
+        text-align: center;
+    }
+
+    .features_para {
+        text-align: center;
+    }
+
+    .features_icon {
+        font-size: 40px;
+        margin-bottom: 12px;
+    }
+
+    .section_title {
+        font-size: 24px;
+    }
+
+    .section_para {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .mt_60 {
+        margin-top: 40px;
+    }
+
+    /*Features Section End*/
+
+    /* Contact Start */
+    .s_btn {
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .address-area,
+    .foot-1 {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    /* Contact End */
 }
 
 /*// Medium devices (tablets, 768px and up)*/
@@ -149,7 +264,23 @@
         margin-left: 0;
     }
 
+    .slider-indicator {
+        bottom: -30%;
+    }
+
     /*Slider section End*/
+
+    /*Features Section*/
+    .section_title {
+        font-size: 28px;
+    }
+
+    .section_para {
+        font-size: 18px;
+    }
+
+    /*Features Section End*/
+
 }
 
 /*// Large devices (desktops, 992px and up)*/
@@ -166,7 +297,15 @@
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
+    .slider-text {
+        margin-top: 20%;
+    }
+
+    .slider-image {
+        margin-top: 10%;
+    }
+
     .slider-indicator {
-        bottom: -140px;
+        bottom: -25%;
     }
 }

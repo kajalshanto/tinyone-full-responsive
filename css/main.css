@@ -41,7 +41,7 @@ header {
 }
 
 .slider-text {
-    margin-top: 75px;
+    margin-top: 10%;
 }
 
 .slider-text h1 {
@@ -100,3 +100,139 @@ header {
 }
 
 /*slider section css end*/
+
+/* features start  */
+#features {
+    margin-bottom: 100px;
+}
+
+.section_header {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.section_title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.section_para {
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 28px;
+}
+
+.features_icon {
+    font-size: 50px;
+    margin-top: 5px;
+}
+
+.features_title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.features_para {
+    color: #898989;
+}
+
+.mt_60 {
+    margin-top: 60px;
+}
+
+/* features end  */
+
+/* Contact section Start */
+.contact {
+    background-color: #010101;
+    padding-bottom: 70px;
+}
+
+.t_yellow {
+    color: #fcdb00;
+}
+
+.t_ash {
+    color: #898989;
+}
+
+.contact_form {
+    margin-bottom: 50px;
+}
+
+.s_form {
+    padding: 28px;
+}
+
+.s_form:focus {
+    /* border: none; */
+    box-shadow: none;
+}
+
+.s_btn {
+    color: #010101;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 16px 30px;
+    background-color: #fcdb00;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.s_btn:hover {
+    background-color: #fff;
+}
+
+.socials_icons .fab {
+    font-size: 40px;
+    color: #fcdb00;
+    margin: 0 8px;
+    -webkit-transition: .3s all ease;
+    -moz-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.socials_icons .fab:hover {
+    color: #fff;
+}
+
+.top_footer {
+    color: #fff;
+    margin-top: 80px;
+}
+
+.top_footer p {
+    margin-bottom: 6px !important;
+}
+
+.top_footer a {
+    color: #fff;
+}
+
+/* Contact section End */
+
+
+
+
+
+/* footer Start */
+#footer {
+    background-color: #fcdb00;
+    padding-bottom: 15px;
+}
+
+#footer hr {
+    border: none;
+    height: 4px;
+    background-color: gainsboro;
+    margin-top: 0;
+}
+
+#footer p {
+    margin-bottom: 0;
+}
+
+/* footer End */
